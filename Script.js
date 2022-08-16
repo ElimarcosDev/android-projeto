@@ -10,3 +10,8 @@
         else {
             bom.innerHTML = "Olá, Boa noite!"
         }
+
+function desat(){
+    alert("Indisponivel no momento")
+    window.navigator.vibrate(200);
+}
